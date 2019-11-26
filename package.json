@@ -1,0 +1,23 @@
+{
+  "name": "node-fileSystem",
+  "version": "1.0.0",
+  "description": "# Using golden circle paradigm for presenting the experience",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kinfol/node-fileSystem.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kinfol/node-fileSystem/issues"
+  },
+  "homepage": "https://github.com/Kinfol/node-fileSystem#readme",
+  "dependencies": {
+    "jest": "^24.9.0 --coverage"
+  }
+}
