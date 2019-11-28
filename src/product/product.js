@@ -2,10 +2,15 @@ class Product {
 	constructor(){
 	};
 	availableProduct() {
-        console.log("Product: Laptop, Brand: Dell, Price: 100£");
-        console.log("Product: Tablet, Brand: Dell, Price: 50£");
+		const a = "Product: Laptop, Brand: Dell, Price: 100£";
+		const b = "Product: Tablet, Brand: Dell, Price: 50£"
+		console.log(a, b)
 	};
 };
+
+
+const c = new Product();
+c.availableProduct();
 
 module.exports = {
 	"product": Product
