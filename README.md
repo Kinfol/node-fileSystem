@@ -29,15 +29,22 @@ https://blog.risingstack.com/node-hero-node-js-project-structure-tutorial/
 ## Sprint 1 The easiest way to provide with functionality for customer to buy Laptop
 
 1. Write test to check if there are available products
+
 1.1. Test fails as there is no method.
-1.3. Write method to print the product.
-1.4. Realising that test will not pass if I console log the product because console.log is build in function. At the moment I just want to use console log.
-1.5. I need to mock the console.log for the test to pass.
-1.6. Test is passing: it provides information that my method to print the available product is used.
+
+1.2. Write method to print the product.
+
+1.3. Realising that test will not pass if I console log the product because console.log is build in function. At the moment I just want to use console log.
+
+1.4. I need to mock the console.log for the test to pass.
+
+1.5. Test is passing: it provides information that my method to print the available product is used.
 
 	   Conclusion:
        My problem starts to become more complex. 
-       How can I answer these questions?
+       How can I answer questions like:
+       - how make it easier for shop-admin to add products ?
+       - what data structure to use to store products? 
        It is not reliable to keep printing objects as if the project would be unavailable changes in the code would need to be made. The code is would not be easy to suport.
 	
 ## Sprint 2
