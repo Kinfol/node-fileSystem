@@ -7,6 +7,9 @@ class Product {
         return [a, b];
 	};
 
+	createProduct() {
+		
+	}
 };
 
 module.exports = {
