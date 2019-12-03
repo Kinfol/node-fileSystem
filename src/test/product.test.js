@@ -11,4 +11,10 @@ describe("products", () => {
             expect(cp.availableProduct()).toEqual ([[ 'Product: Laptop, Brand: Dell, Price: 100£'],
             [ 'Product: Tablet, Brand: Dell, Price: 100£']]);
         })
+
+        it("should push to product array", () => {
+            const cp = new p.product();
+            cp.createProduct();
+            expect(cp.createProduct("product")).toEqual(["product"])
+        })
 })
