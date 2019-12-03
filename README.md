@@ -51,4 +51,8 @@ https://blog.risingstack.com/node-hero-node-js-project-structure-tutorial/
 
 1. Write test to check method availability to create product in array.
 
+2. Pass test to check availability in array
 
+## Sprint 3
+
+1. Test method to push to empty array used as storage unit for now.

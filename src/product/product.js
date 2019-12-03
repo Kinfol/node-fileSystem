@@ -6,6 +6,7 @@ class Product {
 		const b = ["Product: Tablet, Brand: Dell, Price: 100£"];
         return [a, b];
 	};
+
 };
 
 module.exports = {
