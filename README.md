@@ -56,3 +56,4 @@ https://blog.risingstack.com/node-hero-node-js-project-structure-tutorial/
 ## Sprint 3
 
 1. Test method to push to empty array used as storage unit for now.
+2. Add method to pass the test.

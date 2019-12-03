@@ -1,8 +1,6 @@
 class Product {
 	constructor(){
-		// this.products = products;
 	};
-
 
 	availableProduct() {
 		const a = [ "Product: Laptop, Brand: Dell, Price: 100£"];
@@ -16,7 +14,6 @@ class Product {
 		return storage
 	}
 };
-
 
 module.exports = {
 	"product": Product
