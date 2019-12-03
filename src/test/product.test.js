@@ -15,6 +15,6 @@ describe("products", () => {
         it("should push to product array", () => {
             const cp = new p.product();
             cp.createProduct();
-            expect(true).toEqual(true);
+            expect(cp.createProduct("product")).toEqual(["product"])
         })
 })
